@@ -1,2 +1,2 @@
 # ssp-module-spanner
-spanner
+spanner create
