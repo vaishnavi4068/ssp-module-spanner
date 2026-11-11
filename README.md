@@ -1,5 +1,7 @@
 # ssp-module-spanner
 
+**Runtime:** Terraform + Rego only (no application server). Intake and workflows are **Go** in [`ssp-cp`](https://github.com/vaishnavi4068/ssp-cp) and [`ssp-workers`](https://github.com/vaishnavi4068/ssp-workers).
+
 Terraform modules and OPA policies for Cloud Spanner **`spanner_instance`** and **`spanner_database`**, per [ADR-SVC-002](https://github.com/vaishnavi4068/ssp-doc/blob/main/adr/endpoint-service/ADR-SVC-002-spanner-instance-and-database.md).
 
 ## Layout
